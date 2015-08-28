@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:columnCount="2"
+    android:rowCount="1"
+    android:showDividers="middle">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".8">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/posters_fragment"
+            android:name="com.okeefe.peter.movieapp.PostersFragment"
+            tools:layout="@layout/fragment_movie_posters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:visibility="gone"
+        android:id="@+id/detail_fragment_tab_container">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/movie_detail_fragment"
+            android:name="com.okeefe.peter.movieapp.detailsview.MovieDetailsFragment"
+            tools:layout="@layout/fragment_movie_details"
+            android:layout_height="match_parent"
+
+            android:layout_width="match_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>

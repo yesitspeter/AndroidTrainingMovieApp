@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sort_spinner_list">
+
+        <item>@string/action_sort_pop</item>
+        <item>@string/action_sort_review</item>
+        <item>@string/action_favs_only</item>
+    </string-array>
+
+
+</resources>
