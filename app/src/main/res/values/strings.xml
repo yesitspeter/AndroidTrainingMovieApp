@@ -11,7 +11,7 @@
     <string name="sync_account_type">com.okeefe.peter.movieapp</string>
     <string name="content_authority">com.okeefe.peter.movieapp.sync.provider</string>
 
-    <string name="api_key_tmdb">c888b005b87f116dba227dbfd3a573f9</string>
+    <string name="api_key_tmdb"><!--Insert key here--></string>
     <string name="title_activity_detail">Movie Details</string>
     <string name="share_trailer_text">Share Trailer</string>
     <string name="share_prefix">Try out this trailer:</string>
